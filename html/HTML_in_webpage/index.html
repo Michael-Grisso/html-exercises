@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Commands</title>
+</head>
+<body>
+    <h1>Simple HTML Commands:</h1>
+    <dl>
+        <dt><strong>&ltimg&gt</strong></dt>
+            <dd>
+                <ul>
+                    <li>purpose: embeds an image into the document</li>
+                    <li>example: &ltimg src="../fluffy_cat.jpg" height="20%" alt="sweet fluffy cat"&gt</li>
+                    <li>attributes:</li>
+                </ul>
+            </dd>
+        <table style="border: 1px solid black; margin-left: 80px;">
+            <tr>
+                <th align="center" style="border: 1px solid black; padding: 5px;">Attributes</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Value</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Meaning</th>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">src</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">URL</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">source file</td>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">height</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">number, percentage</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The intrinsic width of the image in pixels.  Must be an integer without a unit.</td>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">width</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">number, percentage</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The intrinsic width of the image in pixels.  Must be an integer without a unit.</td>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">alt</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">text</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">Defines an alternative text description of the image.</td>
+            </tr>
+        </table>
+        <br>
+        <dt><strong>&lta&gt, &lta&gt</strong></dt>
+            <dd>
+                <ul>
+                    <li>purpose: anchor element, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</li>
+                    <li>example: &lta href="https://en.wikipedia.org/wiki/Cat"&gtWiki Cats&lt/a&gt</li>
+                    <li>attributes:</li>
+                </ul>
+            </dd>
+        <table style="border: 1px solid black; margin-left: 80px;">
+            <tr>
+                <th align="center" style="border: 1px solid black; padding: 5px;">Attributes</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Value</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Meaning</th>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">href</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">URL</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The URL that the hyperlink points to.</td>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;" rowspan="5">target</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">name_of_frame</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">Where to display the linked URL, as the name for a browsing context (a tab, window, or &ltiframe&gt).</td>
+            </tr>
+            <tr>
+                <td align="left" style="border: 1px solid black; padding: 5px;">_blank</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">Usually a new tab, but users can configure browsers to open a new window instead.</td>
+            </tr>
+            <tr>
+                <td align="left" style="border: 1px solid black; padding: 5px;">_parent</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The parent browsing context of the current one.  If no parent, behaves as _self.</td>
+            </tr>
+            <tr>
+                <td align="left" style="border: 1px solid black; padding: 5px;">_top</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The topmost browsing context (the "highest" context that an ancestor of the current one).  If no ancestors, behaves as _self.</td>
+            </tr>
+            <tr>
+                <td align="left" style="border: 1px solid black; padding: 5px;">_self</td>
+                <td align="left" style="border: 1px solid black; padding: 5px;">The current browsing context. (Default)</td>
+            </tr>
+        </table>
+        <br>
+        <dt><strong>&ltp&gt, &lt/p&gt</strong></dt>
+            <dd>
+                <ul>
+                    <li>purpose: new paragraph</li>
+                    <li>attributes:</li>
+                </ul>
+            </dd>
+        <table style="border: 1px solid black; margin-left: 80px;">
+            <tr>
+                <th align="center" style="border: 1px solid black; padding: 5px;">Attributes</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Value</th>
+                <th align="left" style="border: 1px solid black; padding: 5px;">Meaning</th>
+            </tr>
+            <tr>
+                <td align="center" style="border: 1px solid black; padding: 5px;">This element only includes the global attributes.  Note: The align attribute on &ltp&gt tags is obsolete and shouldn't be used.</td>
+                <td align="center" style="border: 1px solid black; padding: 5px;"></td>
+                <td align="center" style="border: 1px solid black; padding: 5px;"></td>
+                
+            </tr>
+        </table>
+    </dl>
+</body>
+</html>
